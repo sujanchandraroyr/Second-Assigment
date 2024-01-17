@@ -214,6 +214,65 @@ body{
 }
 /* Hotel card section style end */
 
+/* save up to 70% discount section style start */
+.discount-container{
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+}
+.input-contant{
+    background: #FFF;
+}
+.input-contant-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.input-contant-info{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input-contant input{
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.discount-container input[type="button"]{
+    background-color: #FF5400;
+}
+.image-contant{
+    position: relative;
+}
+.saveup-button{
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    top: 70%;
+    left: 63%;
+    padding: 10px 15px;
+}
+.sb-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.sb-subtitle{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.image-contant img{
+    width: 100%;
+}
+/* save up to 70% discount section style end */
+
 
 /* @media screen responsive Mobile device */
 @media screen and (max-width:600px) {
@@ -280,5 +339,23 @@ body{
     .card3{
         width: 100%;
         margin-top: 10px;
+    }
+    /* save up to 70% discount */
+    .discount-container{
+        flex-direction: column;
+        gap: 20px;
+        margin: 50px auto;
+    }
+    .saveup-button{
+        top: 50%;
+        left: 40%;
+    }
+    .sb-title{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .sb-subtitle{
+        font-size: 1.1rem;
+        font-weight: 600;
     }
 }
