@@ -147,7 +147,73 @@ body{
     width: 100%;
     min-height: 550px;
 }
-/*  our popular tours style start */
+/*  our popular tours style end */
+/* Your Destination section style start */
+
+
+/* Your Destination section style end */
+/* Hotel card section style start */
+.hotel-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hotel-card-title{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.hotel-card-info{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card{
+    display: flex;
+    gap: 20px;
+}
+.card1{
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+}
+.card2{
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 20px;
+}
+.card3{
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+    margin-top: 15px;
+}
+.card-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-info{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+/* Hotel card section style end */
+
 
 /* @media screen responsive Mobile device */
 @media screen and (max-width:600px) {
@@ -192,5 +258,27 @@ body{
     }
     .popular-img-contant img{
         min-height: 100%;
+    }
+    /* Choose Us hotel card */
+    .hotel-card{
+        flex-direction: column;
+        align-items: center;
+      }
+      .hotel-card-info{
+        margin: 0 auto;
+    }
+    .card{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .card1{
+        width: 100%;
+    }
+    .card2{
+        width: 100%;
+    }
+    .card3{
+        width: 100%;
+        margin-top: 10px;
     }
 }
